@@ -1,0 +1,53 @@
+# .NET build output
+**/bin/
+**/obj/
+**/TestResults/
+artifacts/
+
+# Visual Studio and IDE files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+secrets.json
+appsettings.Local.json
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Certificates and private keys
+*.pfx
+*.p12
+*.key
+
+# Node and Angular
+node_modules/
+dist/
+.angular/
+coverage/
+
+# Local databases and AI model files
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.sqlite3
+ollama-models/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local secrets
+deploy/.env
+deploy/.env.*
+!deploy/.env.example
